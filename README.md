@@ -1,8 +1,10 @@
 # desafio_delivery
 
-A new Flutter project.
+Desafio proposto no grupo Flutterando (apenas layout)
 
 ## Getting Started
+
+![](screenshots/01.png)
 
 This project is a starting point for a Flutter application.
 
