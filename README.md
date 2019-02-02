@@ -1,6 +1,6 @@
 # desafio_delivery
 
-Desafio proposto no grupo Flutterando (apenas layout)
+Desafio proposto pela equipe do canal https://web.telegram.org/#/im?p=@flutterando_desafios (apenas layout)
 
 ## Getting Started
 
