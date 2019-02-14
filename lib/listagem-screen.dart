@@ -11,7 +11,35 @@ class ListagemScreen extends StatelessWidget {
         children: <Widget>[
           Expanded(
             child: ListView(
+              padding: EdgeInsets.symmetric(horizontal: 10, vertical: 10),
               children: <Widget>[
+                ItemPrato(
+                  nome: "KAMAAGE UDON",
+                  minutos: 20,
+                  calorias: 196,
+                  estrelas: 5,
+                  cor: Color(0xFFE4BA24),
+                  imagem:
+                      "http://www.frontera.com.br/mobile/images/gastronomy/1024/dish-1.png",
+                ),
+                ItemPrato(
+                  nome: "VALENCIAN PRONUNCIATION",
+                  minutos: 20,
+                  calorias: 196,
+                  estrelas: 5,
+                  cor: Colors.red,
+                  imagem:
+                      "http://www.frontera.com.br/mobile/images/gastronomy/1024/dish-2.png",
+                ),
+                ItemPrato(
+                  nome: "KARAAGE UDON",
+                  minutos: 20,
+                  calorias: 196,
+                  estrelas: 5,
+                  cor: Colors.green,
+                  imagem:
+                      "http://www.frontera.com.br/mobile/images/gastronomy/1024/dish-3.png",
+                ),
                 ItemPrato(
                   nome: "KAMAAGE UDON",
                   minutos: 20,

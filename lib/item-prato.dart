@@ -22,11 +22,15 @@ class ItemPrato extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Padding(
-      padding: EdgeInsets.only(top: 10),
+      padding: EdgeInsets.only(top: 20),
       child: Stack(
+        overflow: Overflow.visible,
+        fit: StackFit.loose,
         children: <Widget>[
-          Container(
-            margin: EdgeInsets.only(top: 137, left: 20, right: 20),
+          Positioned(
+            left: 10,
+            right: 10,
+            bottom: 0,
             child: Card(
               child: Container(
                 padding: EdgeInsets.only(top: 20, bottom: 8),
@@ -34,7 +38,7 @@ class ItemPrato extends StatelessWidget {
                   mainAxisAlignment: MainAxisAlignment.spaceEvenly,
                   children: <Widget>[
                     _buildBottomCardButton(Icons.favorite, "375 Likes"),
-                    _buildBottomCardButton(Icons.mode_comment, "75 Likes"),
+                    _buildBottomCardButton(Icons.mode_comment, "75 Comments"),
                     _buildBottomCardButton(Icons.share, "Share"),
                   ],
                 ),
@@ -42,9 +46,9 @@ class ItemPrato extends StatelessWidget {
             ),
           ),
           Container(
-            margin: EdgeInsets.all(10),
+            margin: EdgeInsets.only(top: 10, bottom: 35),
             child: Card(
-              elevation: 10,
+              elevation: 5,
               child: Row(
                 children: <Widget>[
                   Expanded(
